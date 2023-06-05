@@ -1,12 +1,19 @@
 <template>
     <div class="backdrop">
         <div class="model">
-            <h1> Model title</h1>
+            <h1>{{header}}</h1>
             <p>model content</p>
         </div>
 
     </div>
 </template>
+
+
+<script>
+export default {
+   props: ['header']
+}
+</script>
 
 
 <style  scoped>

@@ -4,7 +4,7 @@
   <h1>{{ title }} </h1>
   <input type="text" ref="name">
   <button @click="handleclick" >click me</button>
-  <Model/>
+  <Model header = " Sign Up for the GatWay!"/>
   
 </template>
 
