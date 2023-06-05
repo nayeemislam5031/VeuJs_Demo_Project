@@ -2,7 +2,7 @@
     <div class="backdrop">
         <div class="model">
             <h1>{{header}}</h1>
-            <p>model content</p>
+            <p>{{text}}</p>
         </div>
 
     </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-   props: ['header']
+   props: ['header','text']
 }
 </script>
 

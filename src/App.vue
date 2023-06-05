@@ -4,7 +4,7 @@
   <h1>{{ title }} </h1>
   <input type="text" ref="name">
   <button @click="handleclick" >click me</button>
-  <Model header = " Sign Up for the GatWay!"/>
+  <Model :header="header" :text="text" />
   
 </template>
 
@@ -17,7 +17,9 @@ export default {
   components:{Model},
   data(){
     return{
-      title:"This is the Vue :) "
+      title:"This is the Vue :) ",
+      header: " Sign Up for the GatWay!",
+      text: "Grave your ninja swag for half price"
     }
   },
   methods: {
